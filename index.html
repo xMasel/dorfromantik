@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="headtitle">
+        <h1>Dorfromantik Punkterechner</h1>
+    </div>
+    <div class="taskbox">
+        <div class="taskinput">
+            <label for="foresttask">Waldaufträge</label>
+            <input type="number" name="foresttask" id="tasksForest" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="fieldtask">Feldaufträge</label>
+            <input type="number" name="fieldtask" id="tasksField" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="villagetask">Dorfaufträge</label>
+            <input type="number" name="villagetask" id="tasksVillage" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="railtask">Schienenaufträge</label>
+            <input type="number" name="railtask" id="tasksRail" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="rivertask">Flussaufträge</label>
+            <input type="number" name="rivertask" id="tasksRiver" class="numberinput">
+        </div>
+    </div>
+
+    <div class="summenbox">
+        <h3>Summe der Aufträge</h3>
+        <p id="taskSum"></p>
+    </div>
+
+    <div class="taskbox">
+        <div class="taskinput">
+            <label for="forestbonus">Waldaufträge</label>
+            <input type="number" name="forestbonus" id="bonusForest" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="fieldbonus">Feldaufträge</label>
+            <input type="number" name="fieldbonus" id="bonusField" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="villagebonus">Dorfaufträge</label>
+            <input type="number" name="villagebonus" id="bonusVillage" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="railbonus">Schienenaufträge</label>
+            <input type="number" name="railbonus" id="bonusRail" class="numberinput">
+        </div>
+        <div class="taskinput">
+            <label for="riverbonus">Flussaufträge</label>
+            <input type="number" name="riverbonus" id="bonusRiver" class="numberinput">
+        </div>
+    </div>
+
+    <div class="summenbox">
+        <h3>Summe der Boni</h3>
+        <p id="bonusSum"></p>
+    </div>
+
+    <div class="taskbox">
+        <label for="extras">Sonstige Punkte</label>
+        <input type="number" name="extras" id="extras" class="numberinput">
+    </div>
+
+    <div class="buttonbox">
+        <div class="calcbutton">
+            <button onclick="calculate();">Berechnen</button>
+        </div>
+    </div>
+
+    <div class="summenbox">
+        <h3>Gesamtergebnis</h3>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html>

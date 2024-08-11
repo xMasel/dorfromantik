@@ -1,0 +1,63 @@
+body{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    background-color: #707B30;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.headtitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.taskbox{
+    max-width: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.summenbox{
+    max-width: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.taskinput{
+    border-color: white;
+    margin: 10px;
+}
+
+.numberinput{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 30px;
+    border-radius: 8px;
+}
+
+.buttonbox{
+    max-width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.calcbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 100%;
+}
